@@ -12,3 +12,17 @@ $(function() {
         }
     });
 });
+
+
+
+
+
+$('#loginButton').on('click', function() {
+    $('#loginModal').modal('show');
+});
+
+$('#reserveButton').on('click', function() {
+    $('#reserveModal').modal('show');
+    $('#reserveModal').modal('keyboard');
+
+});
